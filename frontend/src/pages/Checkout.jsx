@@ -9,7 +9,7 @@ const Checkout = () => {
     await API.post("/orders", {
       orderItems: cart,
       shippingAddress: {
-        address: "Demo Address",
+        address: "Demo Street",
         city: "Chennai",
         postalCode: "600001",
         country: "India"
@@ -18,7 +18,7 @@ const Checkout = () => {
       totalPrice
     });
 
-    alert("Order placed successfully!");
+    alert("Order placed!");
     localStorage.removeItem("cart");
   };
 
