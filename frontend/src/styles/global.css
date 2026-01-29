@@ -1,0 +1,30 @@
+:root {
+  --primary: #4f46e5;
+  --secondary: #6366f1;
+  --dark: #0f172a;
+  --light: #f8fafc;
+  --gray: #94a3b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+  color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
